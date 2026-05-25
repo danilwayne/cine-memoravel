@@ -1,3 +1,29 @@
+# CineMemorável
+
+Site de filmes com React, TypeScript e API TMDB.
+
+**Site:** https://danilwayne.github.io/cine-memoravel/
+
+## Deploy (GitHub Pages)
+
+Se a tela ficar branca após publicar, leia **[DEPLOY.md](./DEPLOY.md)** — o problema é publicar a pasta `dist`, não o código-fonte.
+
+```bash
+npm install
+npm run deploy
+```
+
+## Desenvolvimento
+
+```bash
+npm install
+npm run dev
+```
+
+Abra http://localhost:5173/cine-memoravel/
+
+---
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
