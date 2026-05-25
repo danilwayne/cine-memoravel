@@ -218,7 +218,7 @@ export function Home() {
         <div className="home__hero-content">
           <h1>Bem-Vindo(a).</h1>
           <p>
-            Milhões de Filmes, Séries e Pessoas para Descobrir. Explore já.
+            Pare de procurar. Encontre o filme perfeito sem perder horas procurando. Recomendações inteligentes para encontrar o filme certo no momento certo.
           </p>
           <SearchBar
             variant="hero"
