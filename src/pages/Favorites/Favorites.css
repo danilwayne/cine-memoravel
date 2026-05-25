@@ -1,15 +1,15 @@
 .favorites {
-  max-width: 1180px;
+  max-width: 1400px;
   margin: 0 auto;
-  padding: 2rem 1rem;
+  padding: 2rem 1.5rem 3rem;
 }
 
 .favorites h1 {
   margin-bottom: 1.5rem;
+  color: #0d253f;
+  font-size: 1.75rem;
 }
 
-.favorites__grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 1.5rem;
+.favorites__empty {
+  color: rgba(13, 37, 63, 0.7);
 }

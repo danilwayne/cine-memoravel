@@ -1,0 +1,27 @@
+.horizontal-scroll {
+  overflow: hidden;
+}
+
+.horizontal-scroll__track {
+  display: flex;
+  gap: 1rem;
+  overflow-x: auto;
+  padding-bottom: 0.5rem;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: thin;
+  scrollbar-color: #01b4e4 transparent;
+}
+
+.horizontal-scroll__track::-webkit-scrollbar {
+  height: 6px;
+}
+
+.horizontal-scroll__track::-webkit-scrollbar-thumb {
+  background: #01b4e4;
+  border-radius: 999px;
+}
+
+.horizontal-scroll__track > * {
+  flex: 0 0 auto;
+  scroll-snap-align: start;
+}

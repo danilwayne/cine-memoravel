@@ -1,5 +1,5 @@
 .details {
-  max-width: 1180px;
+  max-width: 1400px;
   margin: 0 auto;
   padding: 2rem 1rem;
 }
@@ -31,8 +31,8 @@
   padding: 0.9rem 1.4rem;
   border: none;
   border-radius: 0.7rem;
-  background: #00c9b7;
-  color: #061826;
+  background: #01b4e4;
+  color: #ffffff;
   font-weight: 700;
   cursor: pointer;
 }

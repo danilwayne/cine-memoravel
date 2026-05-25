@@ -1,0 +1,49 @@
+.trailer-card {
+  width: 300px;
+}
+
+.trailer-card__thumb {
+  position: relative;
+  display: block;
+  border-radius: 0.65rem;
+  overflow: hidden;
+}
+
+.trailer-card__thumb img {
+  width: 300px;
+  height: 169px;
+  object-fit: cover;
+}
+
+.trailer-card__play {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  font-size: 2.5rem;
+  color: #ffffff;
+  background: rgba(0, 0, 0, 0.35);
+  transition: background 0.2s;
+}
+
+.trailer-card__thumb:hover .trailer-card__play {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.trailer-card__info {
+  margin-top: 0.75rem;
+}
+
+.trailer-card__info h3 {
+  margin: 0 0 0.25rem;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.trailer-card__info p {
+  margin: 0;
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.75);
+  line-height: 1.35;
+}

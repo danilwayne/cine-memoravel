@@ -15,3 +15,21 @@ export interface MovieResponse {
   total_pages: number
   total_results: number
 }
+
+export interface MovieVideo {
+  id: string
+  key: string
+  name: string
+  site: string
+  type: string
+}
+
+export interface VideosResponse {
+  id: number
+  results: MovieVideo[]
+}
+
+export interface TrailerItem {
+  movie: Movie
+  video: MovieVideo
+}
