@@ -235,7 +235,7 @@ export function Home() {
         {searchResults !== null ? (
           <section className="home__section">
             <SectionHeader title={`Resultados para "${search}"`} />
-            {searchLoading && <p className="home__loading">Buscando...</p>}
+            {searchLoading && <p className="home__loading">Buscando....</p>}
             {!searchLoading && searchResults.length === 0 && (
               <p>Nenhum filme encontrado.</p>
             )}
