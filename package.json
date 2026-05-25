@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build && node -e \"require('fs').copyFileSync('dist/index.html','dist/404.html')\"",
-    "build:pages": "npm run build && node scripts/copy-to-docs.mjs",
+    "build:pages": "node scripts/fix-env-token.mjs && npm run build && node scripts/copy-to-docs.mjs",
     "lint": "eslint .",
     "preview": "vite preview --host",
     "deploy": "npm run build && gh-pages -d dist"
