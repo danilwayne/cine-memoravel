@@ -1,0 +1,15 @@
+.favorites {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.favorites h1 {
+  margin-bottom: 1.5rem;
+}
+
+.favorites__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+}

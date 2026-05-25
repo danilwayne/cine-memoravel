@@ -1,0 +1,35 @@
+.home {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+.home__hero {
+  background: linear-gradient(135deg, #061826, #064456);
+  color: #ffffff;
+  padding: 3rem 2rem;
+  border-radius: 1.5rem;
+}
+
+.home__hero h1 {
+  max-width: 760px;
+  font-size: clamp(2rem, 5vw, 4rem);
+  line-height: 1.05;
+  margin-bottom: 1rem;
+}
+
+.home__hero p {
+  max-width: 620px;
+  font-size: 1.1rem;
+}
+
+.home__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+}
+
+.home__error {
+  color: #b00020;
+  font-weight: 700;
+}
