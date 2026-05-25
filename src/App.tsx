@@ -5,9 +5,11 @@ import { MovieDetails } from './pages/MovieDetails/MovieDetails'
 import { Favorites } from './pages/Favorites/Favorites'
 import { FavoritesProvider } from './context/FavoritesContext'
 
+const basename = import.meta.env.BASE_URL.replace(/\/$/, '')
+
 export function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={basename}>
       <FavoritesProvider>
         <Header />
 
